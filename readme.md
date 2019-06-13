@@ -1,68 +1,75 @@
+<!--lint disable no-html maximum-line-length-->
+
 # awesome unified [![awesome][awesome-badge]][awesome]
 
-A curated list of awesome [unified][] (an ecosystem of syntax trees) resources.
+[<img src="https://raw.githubusercontent.com/unifiedjs/unified/39917ea/logo.svg?sanitize=true" align="right" alt width="200">](https://github.com/unifiedjs/unified)
+
+> A curated list of awesome [**unified**][unified] resources.
+
+**unified** is an ecosystem around syntax trees, processing content, where
+plugins do the heavy lifting.
+
+## Contents
+
+* [Official](#official)
+* [Projects](#projects)
+* [Syntaxes](#syntaxes)
+* [Related projects](#related-projects)
+* [Related lists](#related-lists)
+* [License](#license)
 
 ## Official
 
-*   [unified][]
-    — repository
-*   [unified.js.org][homepage]
-    — website
+* [unified](https://github.com/unifiedjs/unified) - Repository.
+* [unified.js.org](https://unified.js.org) - Homepage.
+* [governance](https://github.com/unifiedjs/governance) - Governance docs.
 
 ## Projects
 
-*   [unified-engine](https://github.com/unifiedjs/unified-engine)
-    — process multiple files with unified
-*   [unified-args](https://github.com/unifiedjs/unified-args)
-    — engine to create CLIs
-*   [unified-engine-gulp](https://github.com/unifiedjs/unified-engine-gulp)
-    — engine to create [Gulp][] plugins
-*   [unified-engine-atom](https://github.com/unifiedjs/unified-engine-atom)
-    — engine to create [Atom][] [Linter][] plugins
-*   [unified-diff](https://github.com/unifiedjs/unified-diff)
-    — ignore unrelated messages in CIs
-*   [unified-stream](https://github.com/unifiedjs/unified-stream)
-    — streaming interface
+* [unified-engine](https://github.com/unifiedjs/unified-engine) - Process multiple files with unified.
+* [unified-args](https://github.com/unifiedjs/unified-args) - Engine to create CLIs.
+* [unified-engine-gulp](https://github.com/unifiedjs/unified-engine-gulp) - Engine to create [Gulp][] plugins.
+* [unified-engine-atom](https://github.com/unifiedjs/unified-engine-atom) - Engine to create [Atom][] [Linter][] plugins.
+* [unified-diff](https://github.com/unifiedjs/unified-diff) - Ignore unrelated messages in CIs.
+* [unified-stream](https://github.com/unifiedjs/unified-stream) - Streaming interface.
 
 ## Syntaxes
 
-*   [remark][] — markdown
-*   [rehype][] — HTML
-*   [retext][] — prose
-*   [redot][] — graphviz
+* [remark](https://github.com/remarkjs/remark) - Markdown.
+* [rehype](https://github.com/rehypejs/rehype) - HTML.
+* [retext](https://github.com/retextjs/retext) - Prose.
+* [redot](https://github.com/redotjs/redot) - Graphviz.
 
 ## Related projects
 
-*   [unist][] — syntax tree
-*   [vfile][] — virtual files
+* [syntax-tree](https://github.com/syntax-tree/unist) - Syntax trees.
+* [vfile](https://github.com/vfile/vfile) - Virtual files.
 
 ## Related lists
 
-*   [awesome remark](https://github.com/remarkjs/awesome)
-*   [awesome rehype](https://github.com/rehypejs/awesome)
-*   [awesome retext](https://github.com/retextjs/awesome)
+* [awesome remark](https://github.com/remarkjs/awesome-remark)
+* [awesome rehype](https://github.com/rehypejs/awesome-rehype)
+* [awesome retext](https://github.com/retextjs/awesome-retext)
+* [awesome mdx](https://github.com/transitive-bullshit/awesome-mdx)
+* [awesome syntax-tree](https://github.com/syntax-tree/awesome-syntax-tree)
+
+## License
+
+[![CC-BY][license-badge]][license] © [Titus Wormer][author]
 
 <!-- Definitions. -->
+
+[license]: https://creativecommons.org/licenses/by/4.0/
+
+[license-badge]: https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
+
+[author]: https://wooorm.com
 
 [awesome-badge]: https://awesome.re/badge.svg
 
 [awesome]: https://awesome.re
 
 [unified]: https://github.com/unifiedjs/unified
-
-[homepage]: https://unified.js.org
-
-[remark]: https://github.com/remarkjs/remark
-
-[rehype]: https://github.com/rehypejs/rehype
-
-[retext]: https://github.com/retextjs/retext
-
-[redot]: https://github.com/redotjs/redot
-
-[unist]: https://github.com/syntax-tree/unist
-
-[vfile]: https://github.com/vfile/vfile
 
 [gulp]: https://github.com/gulpjs/gulp
 
