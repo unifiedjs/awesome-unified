@@ -21,7 +21,7 @@ plugins do the heavy lifting.
 ## Official
 
 * [unified](https://github.com/unifiedjs/unified) - Repository.
-* [unified.js.org](https://unified.js.org) - Homepage.
+* [unifiedjs.com](https://unifiedjs.com) - Homepage.
 * [governance](https://github.com/unifiedjs/governance) - Governance docs.
 
 ## Projects
