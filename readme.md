@@ -22,7 +22,7 @@ plugins do the heavy lifting.
 
 * [unified](https://github.com/unifiedjs/unified) - Repository.
 * [unifiedjs.com](https://unifiedjs.com) - Homepage.
-* [governance](https://github.com/unifiedjs/governance) - Governance docs.
+* [collective](https://github.com/unifiedjs/collective) - Collective governance docs.
 
 ## Projects
 
