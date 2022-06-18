@@ -29,7 +29,6 @@ plugins do the heavy lifting.
 * [unified-engine](https://github.com/unifiedjs/unified-engine) - Process multiple files with unified.
 * [unified-args](https://github.com/unifiedjs/unified-args) - Engine to create CLIs.
 * [unified-engine-gulp](https://github.com/unifiedjs/unified-engine-gulp) - Engine to create [Gulp][] plugins.
-* [unified-engine-atom](https://github.com/unifiedjs/unified-engine-atom) - Engine to create [Atom][] [Linter][] plugins.
 * [unified-diff](https://github.com/unifiedjs/unified-diff) - Ignore unrelated messages in CIs.
 * [unified-stream](https://github.com/unifiedjs/unified-stream) - Streaming interface.
 
@@ -72,7 +71,3 @@ plugins do the heavy lifting.
 [unified]: https://github.com/unifiedjs/unified
 
 [gulp]: https://github.com/gulpjs/gulp
-
-[linter]: https://github.com/steelbrain/linter
-
-[atom]: https://atom.io
