@@ -1,27 +1,27 @@
 {
-  "name": "awesome-unified",
-  "private": true,
-  "version": "0.0.0",
-  "description": "Curated list of awesome unified resources",
-  "license": "CC-BY-4.0",
-  "keywords": [],
-  "repository": "unifiedjs/awesome-unified",
-  "bugs": "https://github.com/unifiedjs/awesome-unified/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (wooorm.com)",
+  "bugs": "https://github.com/unifiedjs/awesome-unified/issues",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (wooorm.com)"
   ],
+  "description": "Curated list of awesome unified resources",
   "devDependencies": {
     "remark-cli": "^12.0.0",
     "remark-preset-wooorm": "^10.0.0"
   },
-  "scripts": {
-    "format": "remark . -qo",
-    "test": "npm run format"
-  },
+  "keywords": [],
+  "license": "CC-BY-4.0",
+  "name": "awesome-unified",
+  "private": true,
   "remarkConfig": {
     "plugins": [
       "remark-preset-wooorm"
     ]
-  }
+  },
+  "repository": "unifiedjs/awesome-unified",
+  "scripts": {
+    "format": "remark . -qo",
+    "test": "npm run format"
+  },
+  "version": "0.0.0"
 }
