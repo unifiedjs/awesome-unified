@@ -2,12 +2,13 @@
 
 # awesome unified [![awesome][awesome-badge]][awesome]
 
-[<img src="https://raw.githubusercontent.com/unifiedjs/unified/39917ea/logo.svg?sanitize=true" align="right" alt width="200">](https://github.com/unifiedjs/unified)
+[<img align="right" alt src="https://raw.githubusercontent.com/unifiedjs/unified/6838c70/logo-square.svg?sanitize=true" width="200">](https://github.com/unifiedjs/unified)
 
-> A curated list of awesome [**unified**][unified] resources.
+> A curated list of awesome **[unified][]** resources.
 
-**unified** is an ecosystem around syntax trees, processing content, where
-plugins do the heavy lifting.
+**unified** is an ecosystem around syntax trees,
+processing content,
+where plugins do the heavy lifting.
 
 ## Contents
 
@@ -21,14 +22,14 @@ plugins do the heavy lifting.
 ## Official
 
 * [unified](https://github.com/unifiedjs/unified) - Repository.
-* [unifiedjs.com](https://unifiedjs.com) - Homepage.
+* [unifiedjs.com](https://unifiedjs.com) - Website.
 * [collective](https://github.com/unifiedjs/collective) - Collective governance docs.
 
 ## Projects
 
 * [unified-engine](https://github.com/unifiedjs/unified-engine) - Process multiple files with unified.
 * [unified-args](https://github.com/unifiedjs/unified-args) - Engine to create CLIs.
-* [unified-engine-gulp](https://github.com/unifiedjs/unified-engine-gulp) - Engine to create [Gulp][] plugins.
+* [unified-engine-gulp](https://github.com/unifiedjs/unified-engine-gulp) - Engine to create Gulp plugins.
 * [unified-diff](https://github.com/unifiedjs/unified-diff) - Ignore unrelated messages in CIs.
 * [unified-stream](https://github.com/unifiedjs/unified-stream) - Streaming interface.
 
@@ -58,16 +59,14 @@ plugins do the heavy lifting.
 
 <!-- Definitions. -->
 
-[license]: https://creativecommons.org/licenses/by/4.0/
-
-[license-badge]: https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
-
 [author]: https://wooorm.com
 
 [awesome-badge]: https://awesome.re/badge.svg
 
 [awesome]: https://awesome.re
 
-[unified]: https://github.com/unifiedjs/unified
+[license]: https://creativecommons.org/licenses/by/4.0/
 
-[gulp]: https://github.com/gulpjs/gulp
+[license-badge]: https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
+
+[unified]: https://github.com/unifiedjs/unified
