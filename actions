@@ -1,0 +1,50 @@
+.github/workflows/bb.yml
++6
+-6
+Original file line number	Diff line number	Diff line change
+@@ -1,13 +1,13 @@
+name: bb
+on:
+  issues:
+    types: [opened, reopened, edited, closed, labeled, unlabeled]
+  pull_request_target:
+    types: [opened, reopened, edited, closed, labeled, unlabeled]
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: unifiedjs/beep-boop-beta@main
+        with:
+          repo-token: ${{secrets.GITHUB_TOKEN}}
+name: bb
+on:
+  issues:
+    types: [closed, edited, labeled, opened, reopened, unlabeled]
+  pull_request_target:
+    types: [closed, edited, labeled, opened, reopened, unlabeled]
+‎.github/workflows/main.yml
++6
+-7
+Original file line number	Diff line number	Diff line change
+@@ -1,15 +1,14 @@
+name: main
+on:
+  - pull_request
+  - push
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: dcodeIO/setup-node-nvm@master
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: node
+      - run: npm install
+      - run: npm test
+      - uses: codecov/codecov-action@v1
+name: main
+on:
+  - pull_request
+  - push
